@@ -1,0 +1,144 @@
+
+@import '../../styles/variables.scss';
+
+.sidebardata {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: $background-color !important;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    // padding: 10px;
+    margin-left: 20px;
+    background-color: $background-color;
+    // margin-top: 10px;
+
+    .logo {
+        width: 210px;
+        height: 55px;
+        margin-left:-10px;
+    }
+        .logo_collapsed{
+            width: 63px;
+            height: 55px;
+            margin-left: -13px;
+        }
+
+    .hamburger-icon {
+        margin-left: auto;
+        cursor: pointer;
+        background-color: $primary-color;
+        color: $menu-hover-color;
+        border-radius: 50%;
+        padding: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right:-10px;
+        top: 35px;
+        transform: translateY(-50%);
+        z-index: 2;
+    }
+        .hamburger-icon-back{
+            margin-left: auto;
+                cursor: pointer;
+                background-color: $primary-color;
+                color: $menu-hover-color;
+                border-radius: 50%;
+                padding: 2px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 16px;
+                height: 16px;
+                position: absolute;
+                right: -10px;
+                top: 35px;
+                transform: translateY(-50%);
+                z-index: 2;
+    
+        }
+}
+
+.logout {
+    color: $logout-color;
+}
+
+.menu-title {
+    color: $secondary-color;
+    padding: 7px 30px;
+    font-size: 12px;
+    display: flex;
+}
+
+.menu-title-collapsed {
+    color: $secondary-color;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+}
+
+.css-ewdv3l {
+    background-color: $background-color !important;
+}
+
+@media (max-width: 991.98px) {
+    .sidebardata {
+        top: 0;
+        left: 0;
+        z-index: 900;
+        height: 100vh;
+        background-color: $background-color;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+}
+
+.menu-item {
+    color: $menu-item-color;
+}
+
+.menu-item-disabled {
+    color: $menu-item-color;
+}
+
+.css-1oe1ei3>.ps-menu-button:hover {
+    background-color: $menu-hover-bg-color !important;
+    color: $menu-hover-color !important;
+    width: 97% !important;
+    border-radius: 0px 10px 10px 0px !important;
+}
+
+.ps-menu-button:hover {
+    color: $primary-color !important;
+}
+
+.ps-menu-button {
+    height: 36px !important;
+    font-size: 15px;
+}
+
+.MuiBadge-badge{
+    background-color: rgba(240, 240, 240, 0.5);
+    color: #E55E1A;
+    border: 1px solid #E55E1A;
+    height: fit-content !important;
+}  
+
+.css-dip3t8{
+    position: static !important;
+}
+
+.css-1097eso{
+    display: none !important;
+}
+
+
+

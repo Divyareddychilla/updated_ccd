@@ -1,0 +1,6 @@
+[submodule "CCD"]
+	path = CCD
+	url = git@vcs-iam.lotuswireless.com:aiml/CCD.git
+[submodule "src/CCD"]
+	path = src/CCD
+	url = git@vcs-iam.lotuswireless.com:aiml/CCD.git

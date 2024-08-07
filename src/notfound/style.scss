@@ -1,0 +1,228 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    // display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.notfound-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #FFF;
+    height: auto;
+    width: 100vw;
+}
+
+.card {
+    border-radius: 50px;
+    text-align: center;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eagleyard_new_logo {
+    width: 183px;
+    height: 70.5px;
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-left: 79px;
+    margin-top: 22px;
+}
+
+
+.textfornotfound {
+    margin: 0;
+    color: #585858;
+    font-family: "Plus Jakarta Sans";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.spanfornotfound {
+    color: #F69545;
+    font-family: "Plus Jakarta Sans";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subtextfornotfound {
+    color: var(--orange-400, #F78B3E);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 38px;
+    margin-bottom: 54px;
+}
+
+.notfoundimage_icon {
+    height: 100%;
+    width: 100%;
+}
+
+.buttonfield {
+    flex-shrink: 0;
+}
+
+.gohomebutton {
+    flex-shrink: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.iconicon {
+    margin: 2px 8px 0 0;
+}
+
+.rectangle {
+    border-radius: 30px;
+    border: 3px solid var(--orange-400, #F78B3E);
+    background: var(--orange-100, #FEECD6);
+    box-shadow: inset 0 0 7px #FFF;
+    color: var(--secondary-color, #585858);
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 38px;
+    padding: 8px;
+}
+
+
+
+@media (max-width: 1200px) {
+    .card {
+        width: 50%;
+    }
+
+    .textfornotfound,
+    .spanfornotfound {
+        font-size: 50px;
+    }
+
+    .subtextfornotfound {
+        font-size: 22px;
+    }
+
+    .rectangle {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 992px) {
+    .card {
+        width: 60%;
+    }
+
+    .textfornotfound,
+    .spanfornotfound {
+        font-size: 45px;
+    }
+
+    .subtextfornotfound {
+        font-size: 20px;
+    }
+
+    .rectangle {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 70%;
+    }
+
+    .eagleyard_new_logo {
+        width: 150px;
+        height: 58px;
+        margin-left: 50px;
+    }
+
+    .textfornotfound,
+    .spanfornotfound {
+        font-size: 40px;
+    }
+
+    .subtextfornotfound {
+        font-size: 18px;
+    }
+
+    .rectangle {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 80%;
+    }
+
+    .eagleyard_new_logo {
+        width: 120px;
+        height: 46px;
+        margin-left: 30px;
+    }
+
+    .textfornotfound,
+    .spanfornotfound {
+        font-size: 35px;
+    }
+
+    .subtextfornotfound {
+        font-size: 16px;
+    }
+
+    .rectangle {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 90%;
+    }
+
+    .eagleyard_new_logo {
+        width: 100px;
+        height: 38px;
+        margin-left: 20px;
+    }
+
+    .textfornotfound,
+    .spanfornotfound {
+        font-size: 30px;
+    }
+
+    .subtextfornotfound {
+        font-size: 14px;
+    }
+
+    .rectangle {
+        font-size: 14px;
+    }
+}

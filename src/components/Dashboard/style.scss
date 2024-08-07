@@ -1,0 +1,16 @@
+.dashboard{
+    display: flex;
+  /*   flex-direction: row;
+    .sidebar-holder{
+        height: auto;
+        width: 20%;
+        position: relative;
+    } */
+
+    .main{
+        background: #FFF3EB;
+        height: auto;
+        width: 100%;
+        overflow-x: hidden;
+    } 
+}

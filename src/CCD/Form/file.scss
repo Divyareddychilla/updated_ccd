@@ -1,0 +1,26 @@
+.upload-button{
+  display: flex !important;
+  border: 2px dotted #1976d2 !important;
+  padding-top: 13.5px !important;
+  padding-bottom: 13.5px !important;
+  .visually-hidden-input {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+}
+.success{
+  margin: 0px;
+  color: green !important;
+}
+.error{
+  margin: 0px;
+  color: red !important;
+}
